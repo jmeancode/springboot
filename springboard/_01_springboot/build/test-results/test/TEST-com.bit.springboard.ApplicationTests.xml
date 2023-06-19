@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bit.springboard.ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-15T03:43:19" hostname="DESKTOP-0P9FTVP" time="0.548">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.bit.springboard.ApplicationTests" time="0.548"/>
+  <system-out><![CDATA[12:43:18.287 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.bit.springboard.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:43:18.367 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.bit.springboard.Application for test class com.bit.springboard.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-15T12:43:18.659+09:00  INFO 14804 --- [    Test worker] com.bit.springboard.ApplicationTests     : Starting ApplicationTests using Java 17.0.7 with PID 14804 (started by bitcamp in D:\Lecture\springboot\springboard\_01_springboot)
+2023-06-15T12:43:18.661+09:00  INFO 14804 --- [    Test worker] com.bit.springboard.ApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2023-06-15T12:43:19.472+09:00  INFO 14804 --- [    Test worker] com.bit.springboard.ApplicationTests     : Started ApplicationTests in 0.985 seconds (process running for 1.943)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
