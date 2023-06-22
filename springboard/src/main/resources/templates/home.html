@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>빙글빙글</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="/css/stylehome.css"></head>
+<body>
+<div th:replace="fragments/header :: header"></div>
+<div class="minititle">
+    <p>The merit of an action lies in finishing it to the end</p>
+</div>
+<div class="typing-container">
+    <span class="typing">Hello Jimin World!</span>
+</div>
+
+<div id="body">
+    <div id="chat-circle" class="btn btn-raised">
+        <div id="chat-overlay"></div>
+        <i class="material-icons">Chat<br><h1>JPT!</h1></i>
+    </div>
+
+    <div class="chat-box">
+        <div class="chat-box-header">
+              ChatJPT >_<
+            <span class="chat-box-toggle"><i class="material-icons">close</i></span>
+        </div>
+        <div class="chat-box-body">
+            <div class="chat-box-overlay"></div>
+            <div class="chat-logs"></div><!--chat-log -->
+        </div>
+        <div class="chat-input">
+            <form>
+                <input type="text" id="chat-input" name="message" placeholder="J(jmean)PT와 대화를 해보세요!"/>
+                <button type="submit" class="chat-submit" id="chat-submit"><i class="material-icons">send</i></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/jpt.js"></script>
+
+</body>
+</html>
